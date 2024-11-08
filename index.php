@@ -82,6 +82,30 @@ if ($_SESSION['letras_acertadas'] == $_SESSION['palabra']) {
         form {
             margin-top: 20px;
         }
+
+        input[type="text"] {
+            padding: 5px;
+            font-size: 1em;
+            margin: 5px;
+        }
+
+        button {
+            padding: 5px 10px;
+            font-size: 1em;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .mensaje {
+            background-color: #ffeb3b;
+            color: #333;
+        }
     </style>
 </head>
 <body>
